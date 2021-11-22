@@ -87,4 +87,10 @@ class MapManager
         int node_index = this.map.width * j + i;
         return this.map_nodes[node_index].position;
     }
+
+
+    public List<MapNode> getNeighbors(MapNode node)
+    {
+
+    }
 }
